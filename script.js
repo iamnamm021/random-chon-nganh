@@ -11,36 +11,16 @@
 	//=====< Danh sách phần thưởng >=====
 	const listGift = [
 		{
-			text: 'I phone 13',
-			percent: 10 / 100,
+			text: 'Cơ-Điện Tử',
+			percent: 34 / 100,
 		},
 		{
-			text: 'Siêu xe',
-			percent: 10 / 100,
+			text: 'Hàng không',
+			percent: 33 / 100,
 		},
 		{
-			text: '1tr vnd',
-			percent: 5 / 100,
-		},
-		{
-			text: 'Khóa học html-css free',
-			percent: 5 / 100,
-		},
-		{
-			text: 'Laptop',
-			percent: 5 / 100,
-		},
-		{
-			text: 'Một cái like',
-			percent: 40 / 100,
-		},
-		{
-			text: 'Khóa học js free',
-			percent: 10 / 100,
-		},
-		{
-			text: 'Áo khoác Gucci',
-			percent: 20 /100,
+			text: 'Vật Liệu Polime',
+			percent: 33 / 100,
 		},
 	];
 
@@ -134,7 +114,7 @@
 		let timer = setTimeout(() => {
 			isRotating = false;
 
-			showMsg.innerHTML = `Chúc mừng bạn đã nhận được "${gift.text}"`;
+			showMsg.innerHTML = `Ngành được chọn là : "${gift.text}"`;
 
 			clearTimeout(timer);
 		}, timeRotate);
