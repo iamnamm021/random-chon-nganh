@@ -43,20 +43,7 @@
 		}deg) skewY(-${skewY}deg)`;
 
 		//=====< Thêm background-color so le nhau và căn giữa cho các thẻ text>=====
-		if (index % 2 == 0) {
-			elm.innerHTML = `<p style="transform: skewY(${skewY}deg) rotate(${
-				rotate / 2
-			}deg);" class="text text-1">
-			<b>${item.text}</b>
-		</p>`;
-		} else {
-			elm.innerHTML = `<p style="transform: skewY(${skewY}deg) rotate(${
-				rotate / 2
-			}deg);" class="text text-2">
-		<b>${item.text}</b>
-		</p>`;
-		}
-
+		
 		//=====< Thêm vào thẻ ul >=====
 		wheel.appendChild(elm);
 	});
