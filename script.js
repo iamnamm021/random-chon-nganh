@@ -11,17 +11,14 @@
 	//=====< Danh sách phần thưởng >=====
 	const listGift = [
 		{
-			text: 'Cơ-Điện Tử',
-			percent: 34 / 100,
+			text: 'Mai Táng',
+			percent: 50 / 100,
 		},
 		{
-			text: 'Hàng không',
-			percent: 33 / 100,
+			text: 'Pin',
+			percent: 50 / 100,
 		},
-		{
-			text: 'Vật Liệu Polime',
-			percent: 33 / 100,
-		},
+
 	];
 
 	//=====< Số lượng phần thưởng >=====
