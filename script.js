@@ -1,7 +1,7 @@
 (() => {
 	const $ = document.querySelector.bind(document);
 
-	let timeRotate = 7000; //7 giây
+	let timeRotate = 3000; //7 giây
 	let currentRotate = 0;
 	let isRotating = false;
 	const wheel = $('.wheel');
